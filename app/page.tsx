@@ -13,6 +13,8 @@ const Home = async (
   {searchParams}:HomeProps
 ) => {
 
+  
+
   const listings = await getListings(searchParams);
   const currentUser = await getCurrentUser();
   
